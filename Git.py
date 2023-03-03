@@ -18,3 +18,7 @@ try:
             print('Use only numbers')
 except ValueError:
     print('Use only numbers')
+def save_file():
+    with open('/Users/danil/Documents/work_py/data_num.txt', 'w') as file:
+        file.write(str(num))
+save_file()

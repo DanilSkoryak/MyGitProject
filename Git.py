@@ -1,4 +1,8 @@
 print('Hello user')
+def save_file():
+    with open('/Users/danil/Documents/work_py/data_num.txt') as file:
+        print(file.read())
+save_file()
 try:
     num = int(input('Enter num: '))
     while True:
